@@ -28,7 +28,7 @@ java-log-file-analyzer/
 ├── manifest.txt
 ├── log-analyzer.jar
 └── README.md
-
+```
 
 ## How to Run
 
