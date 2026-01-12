@@ -49,7 +49,7 @@ java -jar log-analyzer.jar logs/access.log logs/access2.log
 
 ## Output
 The tool provides a comprehensive analysis including:
-
+![Console Output Sample](Output Images/java-log-file-analyzer.png)
 * **Console Summary:**
     * **HTTP Status Code Counts:** Breakdown of 200, 403, 404, and 500 errors.
     * **IP Address Activity:** Total request counts per unique IP.
