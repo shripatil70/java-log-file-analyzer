@@ -46,9 +46,10 @@ java -cp src LogAnalyzer logs/access.log logs/access2.log
 ```bash
 java -jar log-analyzer.jar logs/access.log logs/access2.log
 
+
 ## Output
-Console summary of:
-HTTP status code counts
-IP address activity
-Suspicious IPs
-CSV report generated as report.csv
+-Console summary of:
+-HTTP status code counts
+-IP address activity
+-Suspicious IPs
+-CSV report generated as report.csv
