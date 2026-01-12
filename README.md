@@ -47,7 +47,7 @@ java -cp src LogAnalyzer logs/access.log logs/access2.log
 java -jar log-analyzer.jar logs/access.log logs/access2.log
 ```
 
-### Output
+## Output
 The tool provides a comprehensive analysis including:
 
 * **Console Summary:**
