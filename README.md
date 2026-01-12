@@ -45,8 +45,11 @@ java -cp src LogAnalyzer logs/access.log logs/access2.log
 java -jar log-analyzer.jar logs/access.log logs/access2.log
 
 ### Output
--Console summary of:
--HTTP status code counts
--IP address activity
--Suspicious IPs
--CSV report generated as report.csv
+The tool provides a comprehensive analysis including:
+
+* **Console Summary:**
+    * **HTTP Status Code Counts:** Breakdown of 200, 403, 404, and 500 errors.
+    * **IP Address Activity:** Total request counts per unique IP.
+    * **Suspicious IPs:** Identification of potential threats based on failed request thresholds.
+* **File Export:**
+    * A detailed CSV report is automatically generated as `report.csv`.
