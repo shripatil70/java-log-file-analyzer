@@ -35,14 +35,17 @@ java-log-file-analyzer/
 ### Compile (optional)
 ```bash
 javac src/LogAnalyzer.java
+```
 
 ## Run using classpath
 ```bash
 java -cp src LogAnalyzer logs/access.log logs/access2.log
+```
 
 ## Run using executable JAR
 ```bash
 java -jar log-analyzer.jar logs/access.log logs/access2.log
+```
 
 ### Output
 The tool provides a comprehensive analysis including:
