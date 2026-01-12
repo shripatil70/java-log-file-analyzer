@@ -17,15 +17,13 @@ A Core Java–based command-line tool to analyze server access logs, detect susp
 - Command-line interface (CLI)
 
 ## Project Structure
+```text
 java-log-file-analyzer/
-│
 ├── logs/
-│ ├── access.log
-│ └── access2.log
-│
+│   ├── access.log
+│   └── access2.log
 ├── src/
-│ ├── LogAnalyzer.java
-│
+│   └── LogAnalyzer.java
 ├── report.csv
 ├── manifest.txt
 ├── log-analyzer.jar
@@ -46,8 +44,7 @@ java -cp src LogAnalyzer logs/access.log logs/access2.log
 ```bash
 java -jar log-analyzer.jar logs/access.log logs/access2.log
 
-
-## Output
+### Output
 -Console summary of:
 -HTTP status code counts
 -IP address activity
